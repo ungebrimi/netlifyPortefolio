@@ -293,6 +293,8 @@ svg
 .pages__carousel-item
 {
   position: relative;
+  max-width: 60rem;
+  max-height: 38rem;
 }
 
 .pages__carousel-item::after
