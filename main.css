@@ -120,7 +120,7 @@
       --ff-regular: 'poppins', sans-serif;
       --fs-200: 0.8rem;
       --fs-300: 1rem;
-      --fs-400: 1.2rem;
+      --fs-400: 1.1rem;
       --fs-500: 1.3rem;
       --fs-600: 1.6rem;
       --fs-700: 2.2rem;
@@ -150,7 +150,7 @@ html{
 section
 {
   padding: 1rem;
-  min-height: 40rem;
+  min-height: 20rem;
 }
 
 .webgl
@@ -193,10 +193,10 @@ svg
 
 .introduction
 {
-  height: 20rem;
+  height: 25rem;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 }
@@ -235,7 +235,7 @@ svg
 {
   opacity: 0;
   max-width: 50ch;
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
 }
 
 .about__me-img
@@ -248,7 +248,7 @@ svg
 {
   opacity: 0;
   color: #a3a3a3;
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
   border-bottom: 3px solid linear-gradient(#f00000, #035afb);
 }
 
@@ -399,7 +399,7 @@ Contact
 .contact__personalia-info
 {
   display: block;
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
 }
 
 .contact__socials
