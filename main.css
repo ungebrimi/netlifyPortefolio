@@ -93,6 +93,7 @@
     --clr-300: #e4e4e4;
     --clr-500: #949494;
     --clr-900: #080d0e;
+    --clr-env: #222324;
 
     --clr-accent: #00bbf9;
 
@@ -194,6 +195,7 @@ body
     color: #ffffff;
     font-family: var(--ff-regular);
     font-size: var(--fs-400);
+    background-color: var(--clr-env);
 }
 
 section
@@ -295,7 +297,7 @@ section
 
 .projects__carousel-btn
 {
-    background-color: var(--clr-900);
+    background-color: var(--clr-enc);
     color: var(--clr-100);
     border: none;
     border-radius: 5px;
@@ -392,7 +394,6 @@ section
 
 .contact
 {
-    padding-right: 15rem;
     margin-top: 1rem;
     flex-direction: column;
     justify-content: center;
@@ -444,5 +445,11 @@ section
   margin-right: 0.5rem;
 }
 
+@media (min-width: 60rem) {
+  .contact
+  {
+    padding-right: 15rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map*/
