@@ -257,7 +257,16 @@ section
     max-width: 18rem;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 35rem) 
+{
+  .about__img
+  {
+    max-width: 25rem;
+  }  
+}
+
+@media (min-width: 60rem) 
+{
     .about
     {
         flex-direction: row;
@@ -280,6 +289,12 @@ section
 .projects__information-img
 {
     max-width: 18rem;
+}
+
+.projects__information-ul
+{
+  padding: 0;
+  list-style-type: none;
 }
 
 .projects__carousel-menu
@@ -306,6 +321,8 @@ section
 .slide-info
 {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .projects__information-title, .projects__information-git
@@ -345,6 +362,13 @@ section
     font-size: var(--fs-300);
 }
 
+@media (min-width: 30rem) 
+{
+    .projects__information-img
+    {
+      max-width: 24rem;
+    }  
+}
 
 @media (min-width: 60rem) {
     .projects
